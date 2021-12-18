@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Service.MusicCentralService">
+
+    <permission android:name="com.example.Service.MusicCentralService.MUSIC"
+        android:protectionLevel="dangerous">
+    </permission>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher">
+
+        <service
+            android:label="@string/app_name"
+            android:name=".MusicCentralImpl"
+            android:exported="true"
+            android:permission="com.example.Service.MusicCentralService.MUSIC">
+            <intent-filter>
+                <action android:name="com.example.Service.MusicCommon.MusicCentral" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Project5Service</string>
+    <string-array name="titles">
+        <item>Chrome Zone</item>
+        <item>Play the Game</item>
+        <item>80s Motivational Chiptune</item>
+        <item>broke</item>
+        <item>Kikoskias Theme</item>
+    </string-array>
+    <string-array name="artists">
+        <item>Shane Ivers</item>
+        <item>Shane Ivers</item>
+        <item>Shane Ivers</item>
+        <item>Shane Ivers</item>
+        <item>Shane Ivers</item>
+    </string-array>
+    <string-array name="urls">
+        <item>https://www.silvermansound.com/music/chrome-zone.mp3</item>
+        <item>https://www.silvermansound.com/music/play-the-game.mp3</item>
+        <item>https://www.silvermansound.com/music/80s-motivational-chiptune.mp3</item>
+        <item>https://www.silvermansound.com/music/broke.mp3</item>
+        <item>https://www.silvermansound.com/music/kikoskias-theme.mp3</item>
+    </string-array>
+</resources>
